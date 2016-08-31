@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+/*
+div {
+	border: 1px solid black;
+}
+*/
+.text-success {
+	color: green;
+}
+
+.text-success a {
+	color: inherit;
+}
+
+.text-colheader {
+	color: white;
+}
+
+.div-inline {
+	display: inline-block;
+}
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div id="row1" class="row">
+			<div class="col-sm-12 text-colheader"
+				style="background-image: url('images/Headerbg.jpg');">Best of
+				all jobs</div>
+		</div>
+		<div id="row2" class="row" style="background-color: lavender;">
+			<div class="col-sm-2"></div>
+			<form class="form-group">
+				<div class="col-sm-8 "
+					style="background-image: url('images/BG.jpg');">
+					Find your jobs here
+					<div class="row">
+						<div class="col-sm-5 ">
+							<input type="text" class="form-control" id="keyword"
+								placeholder="Keywords">
+						</div>
+						<div class="col-sm-5 ">
+							<input type="password" class="form-control" id="location"
+								placeholder="Location">
+						</div>
+						<div class="col-sm-2 ">
+							<button type="button" class="btn btn-primary">Search
+								Jobs</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<button type="button" class="btn btn-info" data-toggle="collapse"
+								data-target="#advancefilter">Advance Filter</button>
+						</div>
+					</div>
+					<div id="advancefilter" class="collapse">
+						<div class="row">
+							<div class="col-sm-4">
+								<label for="name" class="control-label text-colheader">Keyword</label>
+								<input type="text" class="form-control" id="keyword"
+									placeholder="Keywords">
+							</div>
+							<div class="col-sm-4">
+								<label for="name" class="control-label text-colheader">Keyword</label>
+								<input type="text" class="form-control" id="keyword"
+									placeholder="Keywords">
+							</div>
+							<div class="col-sm-4">
+								<label for="name" class="control-label text-colheader">Keyword</label>
+								<input type="text" class="form-control" id="keyword"
+									placeholder="Keywords">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-5">
+								<label for="name" class="control-label text-colheader">Salary</label>
+								<div class="dropdown div-inline">
+									<button class="btn btn-primary dropdown-toggle" type="button"
+										data-toggle="dropdown">
+										Min Salary <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+										<li><a href="#">HTML</a></li>
+										<li><a href="#">CSS</a></li>
+										<li><a href="#">JavaS</a></li>
+									</ul>
+								</div>
+								<div class="dropdown div-inline">
+									<button class="btn btn-primary dropdown-toggle" type="button"
+										data-toggle="dropdown">
+										Max Salary <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+										<li><a href="#">HTML</a></li>
+										<li><a href="#">CSS</a></li>
+										<li><a href="#">JavaS</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-sm-5">
+								<label for="name" class="control-label text-colheader">Keyword</label>
+								<input type="text" class="form-control" id="keyword"
+									placeholder="Keywords">
+							</div>
+							<div class="col-sm-2">
+								<button type="button" class="btn btn-primary">Search
+									Jobs</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+			<div class="col-sm-2"
+				style="background-image: url('images/blankbg.jpg');"></div>
+		</div>
+		<div id="row3.1" class="row">
+			<div class="col-sm-12 text-center"
+				style="background-color: lavender;">
+				<h5>Choose your sector</h5>
+			</div>
+		</div>
+		<div id="row3.2" class="row">
+			<div class="col-sm-12 text-center"
+				style="background-color: lavender;">Jobs across 42 sector,See
+				the latest jobs below now</div>
+		</div>
+		<div id="row4" class="row">
+			<div class="col-sm-3" style="background-color: lavender;">
+				<img class="img-responsive" src="images/Tech.jpg" alt="tech">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Java <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Spring <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Admin <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Database <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3" style="background-color: lavender;">
+				<img class="img-responsive" src="images/Engineering.jpg" alt="tech">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Java <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Spring <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Admin <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Database <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3" style="background-color: lavender;">
+				<img class="img-responsive" src="images/Graduate.jpg" alt="tech">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Java <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Spring <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Admin <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Database <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3" style="background-color: lavender;">
+				<img class="img-responsive" src="images/Health.jpg" alt="tech">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Java <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Spring <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Admin <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-success">
+							Database <a href="http://json.org/"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="row5" class="row">
+			<div class="col-sm-12 text-center"
+				style="background-color: lavender;">@Best of all jobs. All
+				rights reserved Terms | Privacy | Cookies</div>
+		</div>
+		<div id="row6" class="row">
+			<div class="col-sm-12 text-center"
+				style="background-color: lavender;">SiteMap | Contact us</div>
+		</div>
+	</div>
+</body>
+</html>
+
